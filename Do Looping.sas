@@ -1,0 +1,12 @@
+DATA FINANCE;
+INPUT Institution $ 1-13 Rate Years;
+DATALINES;
+MNMA Bank    0.0817 5
+Metro Bank   0.0814 3
+Pecific Bank 0.0806 4
+;
+RUN;
+PROC PRINT DATA=FINANCE;
+RUN;
+
+
